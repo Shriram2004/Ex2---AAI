@@ -26,7 +26,8 @@ Perform exact inference using the defined evidence and query variables.<br>
 Print the results.<br>
 
 ## Program :
-```
+```python
+
 # Import required libraries
 from pgmpy.models import BayesianNetwork
 from pgmpy.factors.discrete import TabularCPD
@@ -74,5 +75,5 @@ print(result2)
 ![image](https://github.com/HariniBaskar/Ex2---AAI/assets/93427253/4775164c-1290-4a4b-b8e1-4f9af32b0a95) ![image](https://github.com/HariniBaskar/Ex2---AAI/assets/93427253/2fd38fd9-ec6e-46f3-ae74-644284d5b8b2)
 
 ## Result :
-Thus, Bayesian Inference was successfully determined using Variable Elimination Method
+Thus, Bayesian Inference was successfully determined using Variable Elimination Method.
 
